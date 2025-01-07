@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Load the original CSV file
-input_file = '/Users/kluless/freedom/backtest/echimoku/BTC-USD-15m-2023-1-01T00_00 (1).csv'
-output_file = '/Users/kluless/freedom/backtest/echimoku/btc.csv'
+input_file = '/Users/kluless/freedom/backtest/HFT/BTC-USD-5m-2022-2-02T00_00.csv'
+output_file = '/Users/kluless/freedom/backtest/echimoku/btc5min.csv'
 
 # Read the CSV file and clean up column names
 data = pd.read_csv(input_file)

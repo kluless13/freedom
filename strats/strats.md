@@ -2,7 +2,7 @@ Fib x HFT scalping
 
 ### **1. Fibonacci-Based Strategies**
 
-#### **A. Fibonacci Retracement Strategy** :check:
+#### **A. Fibonacci Retracement Strategy** :white_check_mark: [https://github.com/kluless13/freedom/blob/main/backtest/fib/fibretrace2.py]
 - **Goal**: Buy at key Fibonacci support levels during retracements in an uptrend and sell at resistance levels in a downtrend.
 - **Implementation**:
   - Identify major swing highs and lows over a given lookback period.
@@ -11,7 +11,7 @@ Fib x HFT scalping
 
 ---
 
-#### **B. Fibonacci Breakout Strategy**
+#### **B. Fibonacci Breakout Strategy** :white_check_mark: [https://github.com/kluless13/freedom/blob/main/backtest/fib/fibbreakout.py]
 - **Goal**: Trade breakouts above the 61.8% retracement level or below the 38.2% level.
 - **Implementation**:
   - Wait for the price to consolidate near Fibonacci levels.
@@ -20,7 +20,7 @@ Fib x HFT scalping
 
 ---
 
-#### **C. Fibonacci Confluence Strategy**
+#### **C. Fibonacci Confluence Strategy** :white_check_mark: [https://github.com/kluless13/freedom/blob/main/backtest/fib/fibcon.py]
 - **Goal**: Combine Fibonacci retracement/extensions with other indicators for high-confidence trades.
 - **Implementation**:
   - Identify Fibonacci retracement levels.
@@ -67,14 +67,37 @@ Fib x HFT scalping
 
 ### **Fibonacci x Scalping Strategies for HFT**
 
-1. **Fibonacci Retracement Scalping**
-2. **Fibonacci Breakout Scalping**
-3. **Fibonacci Confluence Scalping**
-4. **Scalping with Moving Averages + Fibonacci**
-5. **VWAP Reversion + Fibonacci Levels**
-6. **Momentum Oscillator Scalping + Fibonacci**
-7. **Order Flow Scalping + Fibonacci**
+1. **Fibonacci x Scalping Strategies for HFT**:
+   - Combines Fibonacci levels with scalping techniques.
+   - Aims for quick, small profits by leveraging Fibonacci retracement and extension levels during rapid market movements.
 
+2. **Fibonacci Retracement Scalping**:
+   - Uses Fibonacci retracement levels (e.g., 38.2%, 50%, 61.8%) to identify pullback levels in an existing trend.
+   - Looks for quick entries and exits when price tests or bounces off these levels.
+
+3. **Fibonacci Breakout Scalping**:
+   - Focuses on breakouts beyond significant Fibonacci levels.
+   - Scalps profits when price moves decisively past retracement or extension levels, signaling continuation.
+
+4. **Fibonacci Confluence Scalping**:
+   - Identifies confluence zones where multiple Fibonacci levels (from different swings) align.
+   - Scalps trades when price reacts to these strong support/resistance zones.
+
+5. **Scalping with Moving Averages + Fibonacci**:
+   - Combines moving averages (e.g., EMA/SMA crossovers) with Fibonacci levels for trade confirmation.
+   - Entries and exits align with moving average signals and Fibonacci support/resistance.
+
+6. **VWAP Reversion + Fibonacci Levels**:
+   - Adds VWAP (Volume Weighted Average Price) to the mix, using it as a dynamic mean-reversion indicator.
+   - Trades are taken when price deviates from VWAP near key Fibonacci levels.
+
+7. **Momentum Oscillator Scalping + Fibonacci**:
+   - Incorporates momentum oscillators like RSI, Stochastic, or MACD with Fibonacci levels.
+   - Uses oscillator signals (e.g., overbought/oversold) for entries/exits around Fibonacci retracement or extension levels.
+
+8. **Order Flow Scalping + Fibonacci**:
+   - Utilizes order flow analysis (e.g., order book imbalances, volume clusters) to enhance Fibonacci scalping strategies.
+   - Focuses on high-probability zones with strong order flow confirmation.
 ---
 
 ### **Indicators for Confluence**
