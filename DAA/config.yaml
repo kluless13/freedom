@@ -1,0 +1,5 @@
+allocation_rules:
+  - condition: "large > mid"         # If Large Cap outperforms Mid Cap
+    allocation: [0.7, 0.3]          # Allocate 70% to Large, 30% to Mid
+  - condition: "mid > large"         # If Mid Cap outperforms Large Cap
+    allocation: [0.3, 0.7]          # Allocate 30% to Large, 70% to Mid
